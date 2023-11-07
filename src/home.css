@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500&family=Kanit:wght@500;800&family=Montserrat&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+main{
+  display: flex;
+  height: calc(100vh - 80px);
+  background-color: rgba(73,21,75,200);
+  align-items: center;
+  justify-content: center;
+}
+video{
+  max-width: 650px;
+}
+.left_content{
+  width: 42%;
+}
+.left_content h1{
+  font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  
+}
+.left_content h2{
+  font-size: 35px;
+  font-family: 'Montserrat', sans-serif;
+  color: yellow;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding-top: 30px;
+}
+.left_content p{
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  line-height: 30px;
+}
+.left_content button{
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.trustedcompanies{
+  height: 230vh;
+  background-color: rgba(245,237,229,255);
+  
+}
+.trustedcompanies h5{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  padding-top: 40px;
+  font-size: 18px;
+  color: black;
+}
+.companies img{
+  padding: 30px 50px 0px;
+}
+.left_video_content{
+  max-width: 650px;
+}
+.right_trust_content a,h2,p{
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+}
+.trustedcontent{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.right_trust_content{
+  margin-left: 150px;
+}
+.right_trust_content h2{
+  line-height: 40px;
+  font-size: 35px;
+  font-weight: 900;
+}
+.right_trust_content p{
+  line-height: 30px;
+  margin: 20px 0px;
+}
+.right_trust_content a{
+  color: #0088a9;
+  font-weight: 600;
+}
+.right_trust_content a:hover{
+  text-decoration: underline;
+}
+.trustedcontent .left_content h2,p,a{
+  color: black;
+}
+.trustedcontent .left_content p{
+  color: black;
+}
+.trustedcontent .left_content h2{
+  letter-spacing: normal;
+  text-transform: none;
+}
+.trustedcontent .left_content a{
+  color: #0088a9;
+  font-weight: 600;
+}
+.trustedcontent .left_content a:hover{
+  text-decoration: underline;
+}
+
+.teams h1{
+  margin-top: 60px;
+  font-size: 50px;
+  color: black;
+}
+.teams h6{
+  color: black;
+  margin-top: 30px;
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+.teams button{
+  border-radius: 15px;
+  
+}
+#b1{
+  background: #0088a9;
+}
+#b2{
+  background: white;
+  border: 2px solid #0088a9;
+  color: #0088a9;
+  margin-left: 20px;
+}
+#b2:hover{
+  color: white;
+  background: #0088a9;
+  border-color: white;
+}
+#b1:hover{
+  color: #0088a9;
+  background: white;
+  border: 2px solid #0088a9;
+}
+
+.percentages{
+  display: flex;
+  justify-content: center;
+  height: 25vh;
+}
+.pdata{
+  padding: 0px 100px;
+  width: max-content;
+  
+}
+.pdata h1{
+  font-size: 55px;
+}
+
+.features {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.features .left_feature_content video{
+  max-width: 650px;
+}
+.features .right_feature_content h2{
+  line-height: 40px;
+  font-size: 35px;
+  font-weight: 900;
+}
+.features .right_feature_content p{
+  line-height: 30px;
+  margin: 20px 0px;
+}
+.features .right_feature_content a{
+  color: #0088a9;
+  font-weight: 600;
+}
+.right_feature_content{
+  margin-left: 150px;
+}
+.features .right_feature_content a:hover{
+  text-decoration: underline;
+}
+.featurep{
+  font-size: 12px;
+  text-align: center;
+  margin-top: -40px;
+  margin-bottom: 20px;
+}
+
+.readmorediv{
+  background-color:rgba(245,237,229,255) ;
+  height: 95vh;
+}
+.readmorediv h1{
+  padding-top: 70px;
+  padding-bottom: 40px;
+  color: black;
+}
+.allcards{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cards{
+  background-color: white;
+  color: black;
+  padding: 10px;
+  margin: 20PX;
+  height: 500px;
+  position: relative;
+}
+.cards p{
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.cards h4{
+  font-size: 20px;
+  padding-top: 20px;
+  color: black;
+}
+.cards a{
+  color: #0088a9;
+  position: absolute;
+  bottom: 30px;
+  right: 50px;
+}

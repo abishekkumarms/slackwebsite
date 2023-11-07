@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500&family=Kanit:wght@500;800&family=Montserrat&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+li,a,button,h6{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+  color: #edf0f1;
+}
+.nav_bar a{
+  color: #edf0f1;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0%;
+  height: 100px;
+  background-color: #24252A;
+}
+img{
+  cursor: pointer;
+}
+.nav_bar{
+  list-style: none;
+}
+.nav_bar li{
+  display: inline-block;
+  padding: 0px 20px;
+}
+.nav_bar li:first-child{
+  margin-left: -80px;
+}
+.nav_bar li a{
+  transition: all 0.3s ease 0s;
+}
+.nav_bar li a:hover{
+  color: #0088a9;
+}
+button{
+  padding: 9px 30px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  background-color: rgba(0, 136, 169, 1);
+  margin-right: 20px;
+}
+button:hover{
+  background-color: rgba(0, 136, 169, 0.5);
+}
+.logo{
+  display: flex;
+  flex-direction: row;
+  padding: 0px 50px;
+}
+h6{
+  margin-top: 10%;
+  padding: 0px 20px;
+  font-weight: 800;
+  font-size: 20px;
+}
